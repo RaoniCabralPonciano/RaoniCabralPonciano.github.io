@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raoní Cabral Ponciano</title>
+<meta name="description" content="Raoní Cabral Ponciano — mathematician at UFABC working on elliptic PDEs, geometric analysis and geometric measure theory.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --fg: #1d1d1f;
+    --muted: #5e5e66;
+    --rule: #e3e0d8;
+    --accent: #1f4e79;
+    --accent-soft: #e8eef5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16171a;
+      --fg: #e9e7e2;
+      --muted: #a2a1a8;
+      --rule: #2c2d32;
+      --accent: #8fb6dd;
+      --accent-soft: #1f2a36;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 20px 80px; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 28px; margin-bottom: 8px; }
+  h1 { font-weight: 600; font-size: 2.1rem; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .role { font-family: Inter, system-ui, sans-serif; font-size: 0.95rem; color: var(--muted); margin: 0; }
+  nav { font-family: Inter, system-ui, sans-serif; font-size: 0.88rem; margin-top: 18px; display: flex; flex-wrap: wrap; gap: 6px 18px; }
+  nav a { color: var(--muted); text-decoration: none; }
+  nav a:hover { color: var(--accent); }
+  h2 {
+    font-family: Inter, system-ui, sans-serif; font-weight: 500;
+    font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--muted); margin: 44px 0 14px;
+  }
+  h3 { font-family: Inter, system-ui, sans-serif; font-weight: 500; font-size: 0.95rem; margin: 26px 0 8px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  ol.pubs { list-style: none; padding: 0; margin: 0; counter-reset: pub; }
+  ol.pubs li { position: relative; padding: 12px 0 12px 2.4em; border-bottom: 1px solid var(--rule); }
+  ol.pubs li:last-child { border-bottom: none; }
+  ol.pubs li::before {
+    counter-increment: pub; content: "[" counter(pub) "]";
+    position: absolute; left: 0; top: 12px;
+    font-family: Inter, system-ui, sans-serif; font-size: 0.8rem; color: var(--muted);
+  }
+  .title { font-weight: 600; }
+  .authors { color: var(--muted); }
+  .venue { font-style: italic; }
+  .links { font-family: Inter, system-ui, sans-serif; font-size: 0.8rem; margin-top: 4px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .links a { text-decoration: none; background: var(--accent-soft); padding: 1px 8px; border-radius: 4px; }
+  .status { font-family: Inter, system-ui, sans-serif; font-size: 0.78rem; color: var(--muted); }
+  dl.cv { display: grid; grid-template-columns: 7.5em 1fr; gap: 8px 18px; margin: 0; }
+  dl.cv dt { font-family: Inter, system-ui, sans-serif; font-size: 0.85rem; color: var(--muted); padding-top: 3px; }
+  dl.cv dd { margin: 0; }
+  ul.plain { padding-left: 1.1em; margin: 0; }
+  footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule);
+    font-family: Inter, system-ui, sans-serif; font-size: 0.8rem; color: var(--muted); }
+  @media (max-width: 520px) {
+    body { font-size: 17px; }
+    .wrap { padding-top: 36px; padding-left: 16px; padding-right: 16px; }
+    h1 { font-size: 1.75rem; }
+    dl.cv { grid-template-columns: 1fr; gap: 2px; }
+    dl.cv dd { margin-bottom: 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Raoní Cabral Ponciano</h1>
+  <p class="role">Postdoctoral Researcher (FAPESP) · Center for Mathematics, Computing and Cognition (CMCC), Universidade Federal do ABC, Santo André, Brazil</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#papers">Papers</a>
+    <a href="#talks">Talks</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I am a mathematician working in elliptic partial differential equations, geometric analysis and geometric measure theory. I am currently a FAPESP postdoctoral fellow at UFABC, under the supervision of Stefano Nardulli. In 2025–2026 I spent a research year at the Università di Pisa, hosted by Aldo Pratelli, working on isoperimetric clusters on Riemannian and Finsler manifolds.</p>
+  <p>I received my PhD in Mathematics from the Universidade Federal da Paraíba (UFPB) in 2023, advised by João Marcos do Ó and co-advised by Guozhen Lu, including a visiting period at the University of Connecticut (2022–2023).</p>
+</section>
+
+<section id="research">
+  <h2>Research interests</h2>
+  <ul class="plain">
+    <li>Sharp Sobolev, Trudinger–Moser and Adams-type inequalities, including weighted Sobolev spaces and Riemannian manifolds</li>
+    <li>Symmetrization and Pólya–Szegő inequalities on manifolds and submanifolds</li>
+    <li>Variational and topological methods for the Allen–Cahn equation and systems</li>
+    <li>Isoperimetric problems and minimal clusters on Riemannian and Finsler manifolds</li>
+    <li>Elliptic PDEs, geometric analysis and geometric measure theory</li>
+  </ul>
+</section>
+
+<section id="papers">
+  <h2>Papers</h2>
+
+  <h3>Preprints and submitted</h3>
+  <ol class="pubs">
+    <li>
+      <span class="title">Pólya–Szegő inequality on submanifolds of Riemannian manifolds with nonnegative curvature and applications.</span>
+      <span class="authors">With A. X. Do, N. Lam and G. Lu.</span> Preprint, 2026.
+      <div class="links"><a href="https://arxiv.org/abs/2609.22676">arXiv:2609.22676</a></div>
+    </li>
+    <li>
+      <span class="title">Survey on topological methods for Allen–Cahn equations and systems.</span>
+      <span class="authors">With J. H. Andrade and S. Nardulli.</span> Accepted, 2026.
+      <div class="links"><a href="https://arxiv.org/abs/2604.23920">arXiv:2604.23920</a></div>
+    </li>
+    <li>
+      <span class="title">Radial Sobolev embeddings on spherically symmetric Riemannian manifolds.</span>
+      <span class="authors">With J. M. do Ó and G. Lu.</span> Submitted, 2026.
+      <div class="links"><a href="https://arxiv.org/abs/2602.13501">arXiv:2602.13501</a></div>
+    </li>
+  </ol>
+
+  <h3>Published</h3>
+  <ol class="pubs" style="counter-reset: pub 3;">
+    <li>
+      <span class="title">Trudinger–Moser type inequalities for the Hessian equation with logarithmic weights.</span>
+      <span class="authors">With J. M. do Ó and J. F. de Oliveira.</span>
+      <span class="venue">J. Differential Equations</span> 481 (2026), 114660.
+      <div class="links"><a href="https://doi.org/10.1016/j.jde.2026.114660">DOI</a><a href="https://arxiv.org/abs/2504.09295">arXiv:2504.09295</a></div>
+    </li>
+    <li>
+      <span class="title">From bubbles to clusters: multiple solutions to the Allen–Cahn system.</span>
+      <span class="authors">With J. H. de Andrade, D. Corona, S. Nardulli and P. Piccione.</span>
+      <span class="venue">J. Differential Equations</span> 464 (2026), 114189.
+      <div class="links"><a href="https://doi.org/10.1016/j.jde.2026.114189">DOI</a><a href="https://arxiv.org/abs/2410.17026">arXiv:2410.17026</a></div>
+    </li>
+    <li>
+      <span class="title">Sharp Sobolev and Adams–Trudinger–Moser inequalities for symmetric functions without boundary conditions on hyperbolic spaces.</span>
+      <span class="authors">With J. M. do Ó and G. Lu.</span>
+      <span class="venue">Calc. Var. Partial Differential Equations</span> 64 (2025), no. 8, 255.
+      <div class="links"><a href="https://doi.org/10.1007/s00526-025-03131-1">DOI</a><a href="https://arxiv.org/abs/2408.13599">arXiv:2408.13599</a></div>
+    </li>
+    <li>
+      <span class="title">Trudinger–Moser embeddings on weighted Sobolev spaces on unbounded domains.</span>
+      <span class="authors">With J. M. do Ó and G. Lu.</span>
+      <span class="venue">Discrete Contin. Dyn. Syst.</span> 45 (2025), no. 2, 557–584.
+      <div class="links"><a href="https://doi.org/10.3934/dcds.2024103">DOI</a><a href="https://arxiv.org/abs/2306.00194">arXiv:2306.00194</a></div>
+    </li>
+    <li>
+      <span class="title">Sharp higher order Adams’ inequality with exact growth condition on weighted Sobolev spaces.</span>
+      <span class="authors">With J. M. do Ó and G. Lu.</span>
+      <span class="venue">J. Geom. Anal.</span> 34 (2024), no. 5, 139.
+      <div class="links"><a href="https://doi.org/10.1007/s12220-024-01587-9">DOI</a><a href="https://arxiv.org/abs/2309.08566">arXiv:2309.08566</a></div>
+    </li>
+    <li>
+      <span class="title">Sharp Sobolev and Adams–Trudinger–Moser embeddings on weighted Sobolev spaces and their applications.</span>
+      <span class="authors">With J. M. do Ó and G. Lu.</span>
+      <span class="venue">Forum Math.</span> 36 (2024), no. 5, 1279–1320.
+      <div class="links"><a href="https://doi.org/10.1515/forum-2023-0292">DOI</a><a href="https://arxiv.org/abs/2302.02262">arXiv:2302.02262</a></div>
+    </li>
+  </ol>
+</section>
+
+<section id="talks">
+  <h2>Selected talks</h2>
+  <dl class="cv">
+    <dt>Feb 2026</dt><dd><em>Connectedness properties of small minimal clusters in Finsler manifolds.</em> XXXV Convegno Nazionale di Calcolo delle Variazioni, Riccione, Italy</dd>
+    <dt>Sep 2025</dt><dd><em>Trudinger–Moser type inequalities for the Hessian equation with logarithmic weights.</em> XIII Workshop in Nonlinear Differential Equations, Modena, Italy</dd>
+    <dt>Apr 2025</dt><dd><em>Sharp Sobolev and Adams–Trudinger–Moser embeddings for symmetric functions without boundary conditions on hyperbolic spaces.</em> AMS Spring Eastern Sectional Meeting (Special Session), Hartford, USA</dd>
+    <dt>Feb 2025</dt><dd><em>Sharp Sobolev and Adams–Trudinger–Moser embeddings for symmetric functions without boundary conditions on hyperbolic spaces.</em> Analysis Seminar, Department of Mathematics, Università di Pisa, Italy</dd>
+    <dt>Aug 2024</dt><dd><em>Sharp Sobolev and Adams–Trudinger–Moser embeddings for symmetric functions without boundary conditions on hyperbolic spaces.</em> VII CLAM – Latin American and Caribbean Congress of Mathematics, João Pessoa, Brazil (talk and poster)</dd>
+    <dt>Sep 2023</dt><dd>Contributed talk, XII Workshop in Nonlinear Differential Equations, Universidade de Brasília, Brazil</dd>
+    <dt>Jul 2023</dt><dd><em>Adams and Trudinger–Moser embeddings on weighted Sobolev spaces and applications.</em> 14th ISAAC Congress, Ribeirão Preto, Brazil</dd>
+    <dt>Feb 2022</dt><dd><em>Generalizações do Problema de Yamabe.</em> Colóquio Júnior, Graduate Program in Mathematics, UFPE, Recife, Brazil</dd>
+  </dl>
+</section>
+
+<section id="cv">
+  <h2>Short CV</h2>
+  <dl class="cv">
+    <dt>2024–present</dt><dd>FAPESP Postdoctoral Fellow, CMCC–UFABC (supervisor: Stefano Nardulli)</dd>
+    <dt>2025–2026</dt><dd>Visiting researcher, Università di Pisa, Italy (FAPESP BEPE; host: Aldo Pratelli)</dd>
+    <dt>2022–2023</dt><dd>Visiting PhD student, University of Connecticut, USA (CAPES PDSE; host: Guozhen Lu)</dd>
+    <dt>2023</dt><dd>PhD in Mathematics, UFPB (advisor: João Marcos do Ó; co-advisor: Guozhen Lu). Thesis on Trudinger–Moser and Adams type inequalities on weighted Sobolev spaces</dd>
+    <dt>2019</dt><dd>MSc in Mathematics, UFPB</dd>
+    <dt>2017</dt><dd>BSc in Mathematics, UFPB (Láurea Acadêmica). Undergraduate research (PIBIC/CNPq, 2016–2018) with João Marcos do Ó</dd>
+  </dl>
+  <h3>Service and teaching</h3>
+  <ul class="plain">
+    <li>External examiner, PhD thesis committee, Graduate Program in Mathematics, UFPE (2025)</li>
+    <li>Short course “Funções de uma Variável Real”, Summer School of the Graduate Program in Mathematics, UFPB (2024)</li>
+  </ul>
+  <p style="margin-top:16px">Full CV: <a href="http://lattes.cnpq.br/1531578320218938">Lattes</a></p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    Email: <a href="mailto:raoni.ponciano@ufabc.edu.br">raoni.ponciano@ufabc.edu.br</a><br>
+    Universidade Federal do ABC, Santo André – SP, Brazil
+  </p>
+  <p>
+    <a href="https://arxiv.org/search/?query=Ponciano%2C+Raoni&searchtype=author">arXiv</a> ·
+    <a href="https://orcid.org/0000-0002-5126-3420">ORCID</a> ·
+    <a href="http://lattes.cnpq.br/1531578320218938">Lattes</a>
+  </p>
+</section>
+
+<footer>Last updated October 2026.</footer>
+</div>
+</body>
+</html>
